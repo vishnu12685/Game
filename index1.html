@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Break The Brick </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- build:css css/main.css -->
+    <link href="styles.css" rel="stylesheet">
+     <!-- endbuild -->
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h2 align="center">Break the brick</h2>
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-4 text-center">
+          <img src="./images/game_title.jpg" alt="Game_title" style="width: 280px;">
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <br>
+           <a type="button" href="./game.html" class="btn btn-danger"> Play Game</a> 
+           <br><br>
+           <button type="button" class="btn btn-info" data-animation="true" data-toggle="popover" data-trigger="focus" title="Instructions" 
+           data-html="true" data-placement="bottom" data-content="1. You can use both arrow keys as well as mouse hover to move the paddle, in a PC and you can 
+           tap on the arrow buttons given below the game screen or simply tap where you want paddle to be placed, if playing in a phone. <br> 2. If the ball goes down, without touching the paddle, you will lose one life. <br>
+            3. There are total 3 lives provided to you. <br> 4. Scores are awarded as- <br> Destroy light brick :     5 points <br> Destroy dark brick (in 2 hits) :     10 points ">View Instructions</button>         
+           
+          </div>
+        <div class="col-12 col-md-4 text-center">
+          <img src="./images/game_pic.jpg" alt="Game_Screenshot" style="width: 280px;">
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script> $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    </script>
+  </body>
+</html>

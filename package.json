@@ -1,0 +1,27 @@
+{
+  "name": "break_the_brick",
+  "version": "1.0.0",
+  "description": "Break the break game developed using pure HTML, CSS and JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin images/* -o dist/images",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin game.html -d dist --htmlmin -o dist/game.html",
+    "build": "npm run clean && npm run imagemin && npm run usemin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjchirag7/break_the_brick.git"
+  },
+  "author": "Chirag Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjchirag7/break_the_brick/issues"
+  },
+  "homepage": "https://github.com/cjchirag7/break_the_brick#readme",
+  "dependencies": {
+    "usemin": "^0.5.0",
+    "usemin-cli": "^0.5.1"
+  }
+}
